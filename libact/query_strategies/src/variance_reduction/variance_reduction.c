@@ -2,7 +2,7 @@
 
 #include <Python.h>
 #include <numpy/arrayobject.h>
-#include <lapacke.h>
+#include "lapacke.h"
 
 /* DGESVD prototype */
 extern void LAPACK_dgesvd( char* jobu, char* jobvt, int* m, int* n, double* a,
